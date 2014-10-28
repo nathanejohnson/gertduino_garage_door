@@ -1,7 +1,7 @@
 /*
  *    FILE: MM01
- *  AUTHOR: Rob van den Tillaart; modified Ralph Martin
- *    DATE: 2012 06 10 
+ *  AUTHOR: Rob van den Tillaart; modified Ralph Martin; modified again Nathan Johnson
+ *    DATE: 2014/10/26
  *     ORIGINAL URL: http://playground.arduino.cc/Code/HallEffect
  *
  * PURPOSE: use an A1301 or A1302 as magnetometer   
