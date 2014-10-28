@@ -1,23 +1,9 @@
 /*
- *    FILE: MM01
- *  AUTHOR: Rob van den Tillaart; modified Ralph Martin; modified again Nathan Johnson
- *    DATE: 2014/10/26
- *     ORIGINAL URL: http://playground.arduino.cc/Code/HallEffect
- *
- * PURPOSE: use an A1301 or A1302 as magnetometer   
- *
- * Pin Layout LH Package
- * =====================
- *  1     VCC 5V
- *  2     signal    connected to Analog 0    
- *  3     GND
- *
- * Pin Layout UA Package
- * =====================
- *  1     VCC 5V
- *  2     GND
- *  3     signal    connected to Analog 0    
- *
+ * Hall effect code courtesy of Rob van den Tillaart and Ralph Martin, http://playground.arduino.cc/Code/HallEffect
+ * This is going to use a hall effect sensor to detect two opposed magnets, one at top of garage door and one at bottom,
+ * one in north orientation and the other in south, so that it will know when garage door is fully open and fully closed.
+ * It will also be able to toggle a relay that will open / close the garage door.  In the future, it will also be able to
+ * detect when garage door is in motion by deting current draw of the garage door itself, being a passive ammeter.
  */
 
 #define RELAYPIN 4
