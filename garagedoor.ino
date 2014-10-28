@@ -7,7 +7,7 @@
  */
 
 #define RELAYPIN 4
-#define TOGGLETIME 5000 // time to toggle the garage door switch in ms
+#define TOGGLETIME 1000 // time to toggle the garage door switch in ms
 
 #define NOFIELD 512L    // Analog output with no applied field, calibrate this
 
